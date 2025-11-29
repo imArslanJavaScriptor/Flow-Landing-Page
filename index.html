@@ -3,19 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FLow Green Future</title>
+    <title>Flow Green Future</title>
     <!-- Fav -->
     <link rel="shortcut icon" href="./images/fav.ico" type="image/x-icon" />
     <!-- CSS -->
     <link rel="stylesheet" href="./styles.css" />
-    <!-- FontAwesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <!-- Custom cursor -->
@@ -26,34 +18,35 @@
         <nav class="container">
           <div class="navMenu">
             <div class="nav-left">
-              <div class="logo">
+              <a href="/" class="logo">
                 <img src="./images/logo.png" />
                 <span>Flow</span>
-              </div>
+              </a>
               <ul id="navList">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Solution</a></li>
-                <li><a href="#">Blog</a></li>
-                <a href="#" class="btn btn-green navBtn"
-                  ><span>Get in touch</span></a
-                >
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li>
+                  <a href="#contact" class="btn btn-green navBtn"><span>Get in touch</span></a>
+                </li>
               </ul>
             </div>
             <div class="nav-right">
-              <a href="#" class="btn btn-green outerBtn"
+              <a href="#contact" class="btn btn-green outerBtn"
                 ><span>Get in touch</span></a
               >
             </div>
           </div>
           <div class="menu-icon">
-            <i class="fa-solid fa-bars"></i>
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
           </div>
         </nav>
       </header>
 
       <!-- Hero Section -->
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="hero-wrapper container">
           <div class="hero-content">
             <h4><img src="./images/Powering.png" /> Powering Tomorrow</h4>
@@ -198,7 +191,7 @@
       </section>
 
       <!--  About us Section -->
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about-top">
             <div class="about-para">
@@ -257,7 +250,7 @@
       </section>
 
       <!--  Our Experts -->
-      <section class="experts">
+      <section class="experts" id="team">
         <div class="container experts-wrapper">
           <h2>Meet our experts</h2>
           <p class="p-medium">
@@ -312,7 +305,7 @@
       </section>
 
       <!--  Testimonials Section -->
-      <section class="testimonials">
+      <section class="testimonials" id="testimonials">
         <div class="container">
           <div class="top-para">
             <p><span></span> Testimonials</p>
@@ -449,7 +442,7 @@
       </section>
 
       <!--  Blog Section -->
-      <section class="blog">
+      <section class="blog" id="blog">
         <div class="blog-container container">
           <div class="blog-info">
             <div class="blog-content">
@@ -462,7 +455,7 @@
             <a href="#" class="btn btn-white"><span>See all</span></a>
           </div>
           <div class="more-blogs">
-            <div class="blog blog-1">
+            <div class="singleBlog blog-1">
               <div class="img-box">
                 <img src="./images/wind.png" alt="" />
               </div>
@@ -480,7 +473,7 @@
                 </div>
               </div>
             </div>
-            <div class="blog blog-2">
+            <div class="singleBlog blog-2">
               <div class="img-box">
                 <img src="./images/trash.png" />
               </div>
@@ -498,7 +491,7 @@
                 </div>
               </div>
             </div>
-            <div class="blog blog-3">
+            <div class="singleBlog blog-3">
               <div class="img-box">
                 <img src="./images/hyderogen.png" />
               </div>
@@ -586,7 +579,7 @@
       </section>
 
       <!--  News Letter Section -->
-      <section class="news-letter">
+      <section class="news-letter" id="contact">
         <div class="news-letter-content">
           <div class="news-letter-info container">
             <h2>Your Source for Green Energy Updates</h2>
@@ -617,7 +610,7 @@
             <div class="platforms">
               <h4>Platforms</h4>
               <ul>
-                <li><a href="#">Solutions</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#">How it works</a></li>
                 <li><a href="#">Pricing</a></li>
               </ul>
@@ -625,16 +618,16 @@
             <div class="company">
               <h4>Company</h4>
               <ul>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Our Mission</a></li>
                 <li><a href="#">Careers</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
             <div class="resources">
               <h4>Resources</h4>
               <ul>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#blog">Blogs</a></li>
                 <li><a href="#">Help Center</a></li>
                 <li><a href="#">Support</a></li>
               </ul>
@@ -659,10 +652,15 @@
           </div>
         </div>
         <p class="footer-text container">
-          © 2024 Flow. All rights reserved. Craft with Love By Muhammad Arslan
+          © 2025 Flow. All rights reserved. Craft with Love By Muhammad Arslan
         </p>
       </footer>
     </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+    </button>
 
     <!-- JS -->
     <script src="./script.js"></script>
